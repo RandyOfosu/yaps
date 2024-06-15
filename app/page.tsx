@@ -1,11 +1,11 @@
 import Hero from "@/components/Hero";
-// import Bento from "@/components/Bento";
 import Card from "@/components/Card";
 import { TracingBeam } from "@/components/ui/tracing-beam";
 import { AuroraBackground } from "@/components/ui/aurora-background";
 import Experience from "@/components/Experience";
 import Approach from "@/components/Approach";
 import Referenties from "@/components/Referenties";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -16,9 +16,9 @@ export default function Home() {
                 <Hero />
                 <Card />
                 <Approach />
-                <Experience />
                 <Referenties />
-                {/* <Bento /> */}
+                <Experience />
+                <Footer />
             </TracingBeam>
           </AuroraBackground>
         </div>

@@ -25,44 +25,44 @@ export const werkErvaring = [
     title: "Familie Man",
     desc: "Het onderhouden en verbeteren van mijn relatie met de belangrijkste stakeholder in mijn leven. Mijn vrouw.",
     className: "md:col-span-2",
-    thumbnail: "https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Astronaut%20Dark%20Skin%20Tone.png",
+    thumbnail: "https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Couple%20with%20Heart%20Woman%2C%20Man%2C%20Medium-Dark%20Skin%20Tone.png",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, dignissimos. Commodi ipsa sapiente dignissimos atque, optio similique sint dolore quod architecto in? Totam animi, odit repellat nemo fugit iure explicabo!",
     name: "Ali Tozan",
     title: "Interface Engineer, Gemeente Den Haag",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, dignissimos. Commodi ipsa sapiente dignissimos atque, optio similique sint dolore quod architecto in? Totam animi, odit repellat nemo fugit iure explicabo!",
     name: "Isaac Janga",
     title: "Applicatiespecialist, Amsterdam UMC",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, dignissimos. Commodi ipsa sapiente dignissimos atque, optio similique sint dolore quod architecto in? Totam animi, odit repellat nemo fugit iure explicabo!",
     name: "Varsha Birdja",
     title: "Interface Engineer, Amsterdam UMC",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, dignissimos. Commodi ipsa sapiente dignissimos atque, optio similique sint dolore quod architecto in? Totam animi, odit repellat nemo fugit iure explicabo!",
     name: "Joeri Ruizendaal",
     title: "Software Engineer, Celsius Benelux B.V.",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, dignissimos. Commodi ipsa sapiente dignissimos atque, optio similique sint dolore quod architecto in? Totam animi, odit repellat nemo fugit iure explicabo!",
     name: "Kevin Roovers",
     title: "Talent Manager, The New Crew",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, dignissimos. Commodi ipsa sapiente dignissimos atque, optio similique sint dolore quod architecto in? Totam animi, odit repellat nemo fugit iure explicabo!",
     name: "Rens Hofstra",
     title: "E-Sports Coach, BLVCKHVND",
   },
@@ -99,4 +99,23 @@ export const companies = [
   //   img: "/dock.svg",
   //   nameImg: "/dockerName.svg",
   // },
+];
+
+export const socialMedia = [
+  {
+    id: 1,
+    img: "/linkedin.svg",
+  },
+  {
+    id: 2,
+    img: "/github.svg",
+  },
+  // {
+  //   id: 3,
+  //   img: "/blog.svg",
+  // },
+  {
+    id: 4,
+    img: "/rss.svg",
+  },
 ];

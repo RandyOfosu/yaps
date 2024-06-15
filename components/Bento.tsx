@@ -9,7 +9,7 @@ import {
 
 export function Bento() {
   return (
-    <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem]">
+    <BentoGrid className="w-full mx-auto lg:w-screen md:auto-rows-[20rem]">
       {items.map((item, i) => (
         <BentoGridItem
           key={i}

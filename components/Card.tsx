@@ -7,6 +7,7 @@ import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 export function Card() {
   return (
     <div className="mx-12 xl:flex xl:flex-row justify-items-center grid grid-cols-1 gap-10 place-content-center py-20">
+
       <div className="bg-gradient-to-tl from-cyan-300/70 via-green-300/30 to-pink-100/10 justify-center relative group/card shadow-lg shadow-cyan-300/70 dark:bg-black dark:border-white/[0.2] border-black/[0.2] rounded-xl p-6 xl:w-2/4 w-full h-auto">
         <div className="text-4xl font-bold text-gray-700 dark:text-white">
           Hi, mijn naam is Randy
