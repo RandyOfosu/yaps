@@ -7,7 +7,7 @@ import { TextGenerateEffect } from './ui/text-generate-effect';
 
 
 const word = ["Problemen", "Vraagstukken", "Integratie"];
-const words = `Hulp Nodig bij IT Problemen`
+const words = `Hulp Nodig bij ICT Problemen`
 
 export function Hero() {
   return (
