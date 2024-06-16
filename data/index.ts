@@ -132,33 +132,33 @@ export const socialMedia = [
 
 export const usps = [
   {
-    title: "Amsterdammer",
+    title: "Lorem Ipsum",
     description:
-      "Geen geneuzel over tijdzones en ongemakkelijke taalbarrières.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, aperiam corrupti! Libero quibusdam, maxime itaque, repellat harum pariatur ipsum corporis eveniet non aut adipisci ducimus, odio in eligendi ut velit.",
     link: "",
   },
   {
-    title: "Een Breed Netwerk",
+    title: "Lorem Ipsum",
     description:
-      "Kom ik zelf niet uit in een technische kwestie? Geen probleem, ik kan altijd mijn netwerk van IT toppers bevragen om alsnog tot passende een oplossing te komen.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, aperiam corrupti! Libero quibusdam, maxime itaque, repellat harum pariatur ipsum corporis eveniet non aut adipisci ducimus, odio in eligendi ut velit.",
     link: "",
   },
   {
-    title: "Diverse Achtergrond",
+    title: "Lorem Ipsum",
     description:
-      "Geboren Nederlander met Ghaneze/Ivoriaanse roots.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, aperiam corrupti! Libero quibusdam, maxime itaque, repellat harum pariatur ipsum corporis eveniet non aut adipisci ducimus, odio in eligendi ut velit.",
     link: "",
   },
   {
-    title: "Web Development",
+    title: "Lorem Ipsum",
     description:
-      "Niet alleen html/css/js, maar ook Frameworks zoals React (Next.js) en Laravel (PHP) zitten in mijn arsenaal.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, aperiam corrupti! Libero quibusdam, maxime itaque, repellat harum pariatur ipsum corporis eveniet non aut adipisci ducimus, odio in eligendi ut velit.",
     link: "",
   },
   {
-    title: "API's ontwikkelen",
+    title: "Lorem Ipsum",
     description:
-      "Wil jij informatie delen of ophalen maar dan ook de maten aangeven in hoever dat kan? Dan ben je bij mij aan het juiste adres.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, aperiam corrupti! Libero quibusdam, maxime itaque, repellat harum pariatur ipsum corporis eveniet non aut adipisci ducimus, odio in eligendi ut velit.",
     link: "",
   },
   {

@@ -3,7 +3,6 @@ import React from 'react'
 const ReactButton = ({
     title,
     handleClick,
-    otherClasses,
   }: {
     title: string;
     handleClick?: () => void;
