@@ -9,7 +9,7 @@ const Experience = () => {
         Mijn
         <span className="text-violet-500"> Werkervaring</span>
 
-        <div className='w-full mt-20 grid lg:grid-cols-4 grid-cols-1 gap-10'>
+        <div className='w-full mt-20 grid lg:grid-cols-4 grid-cols-1 gap-10 pointer-events-none'>
             {werkErvaring.map((card) => (
                 <Button 
                     key={card.id}
