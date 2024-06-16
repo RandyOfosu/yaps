@@ -33,44 +33,44 @@ export const testimonials = [
   {
     quote:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, dignissimos. Commodi ipsa sapiente dignissimos atque, optio similique sint dolore quod architecto in? Totam animi, odit repellat nemo fugit iure explicabo!",
-    name: "Ali Tozan",
-    title: "Interface Engineer, Gemeente Den Haag",
+    name: "lorem ipsum",
+    title: "lorem ipsum, dolor sit",
   },
   {
     quote:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, dignissimos. Commodi ipsa sapiente dignissimos atque, optio similique sint dolore quod architecto in? Totam animi, odit repellat nemo fugit iure explicabo!",
-    name: "Isaac Janga",
-    title: "Applicatiespecialist, Amsterdam UMC",
+    name: "lorem ipsum",
+    title: "lorem ipsum, dolor sit",
   },
   {
     quote:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, dignissimos. Commodi ipsa sapiente dignissimos atque, optio similique sint dolore quod architecto in? Totam animi, odit repellat nemo fugit iure explicabo!",
-    name: "Joeri Ruizendaal",
-    title: "Software Engineer, Celsius Benelux B.V.",
+    name: "lorem ipsum",
+    title: "lorem ipsum, dolor sit",
   },
   {
     quote:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, dignissimos. Commodi ipsa sapiente dignissimos atque, optio similique sint dolore quod architecto in? Totam animi, odit repellat nemo fugit iure explicabo!",
-    name: "Kevin Roovers",
-    title: "Talent Manager, The New Crew",
+    name: "lorem ipsum",
+    title: "lorem ipsum, dolor sit",
   },
   {
     quote:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, dignissimos. Commodi ipsa sapiente dignissimos atque, optio similique sint dolore quod architecto in? Totam animi, odit repellat nemo fugit iure explicabo!",
-    name: "Rutger Rozendal",
-    title: "Directeur, Noterik B.V.",
+    name: "lorem ipsum",
+    title: "lorem ipsum, dolor sit",
   },
   {
     quote:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, dignissimos. Commodi ipsa sapiente dignissimos atque, optio similique sint dolore quod architecto in? Totam animi, odit repellat nemo fugit iure explicabo!",
-    name: "Varsha Birdja",
-    title: "Interface Engineer, Amsterdam UMC",
+    name: "lorem ipsum",
+    title: "lorem ipsum, dolor sit",
   },
   {
     quote:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, dignissimos. Commodi ipsa sapiente dignissimos atque, optio similique sint dolore quod architecto in? Totam animi, odit repellat nemo fugit iure explicabo!",
-    name: "Rens Hofstra",
-    title: "E-Sports Coach, BLVCKHVND",
+    name: "lorem ipsum",
+    title: "lorem ipsum, dolor sit",
   },
 ];
 

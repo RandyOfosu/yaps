@@ -9,7 +9,7 @@ import animationData from '@/data/confetti.json'
 import Lottie from 'react-lottie';
 
 
-const word = ["Problemen", "Vraagstukken", "Integratie"];
+// const word = ["Problemen", "Vraagstukken", "Integratie"];
 const words = `Hulp Nodig bij ICT Problemen`
 
 export function Hero() {
@@ -42,21 +42,23 @@ export function Hero() {
                 }}
                 className="relative flex flex-col gap-4 items-center justify-center px-4"
             >
-                    <div className="text-3xl md:text-7xl font-bold dark:text-white text-center">
+                    <div className="font-bold dark:text-white text-center">
                     <TextGenerateEffect words={words} />
                     </div>
-                    <div className="font-light text-base md:text-4xl dark:text-neutral-200 py-4">
+                    <div className="text-base md:text-4xl dark:text-neutral-200 py-4">
                     Oplossing: Randy Ofosu 
                     </div>
 
-                    <div className='absolute z-5'>
-                    <Lottie options={defaultOptions} width={350} />
+
+                    <div className='absolute w-56 h-64 md:w-72 md:h-72 pointer-events-none'>
+                    <Lottie options={defaultOptions}  />
                     </div>
 
                     <ReactButton 
                     title={copied ? 'Je hebt mijn email' : 'Aangenaam'}
                     handleClick={handleCopy}
                     />
+
 
                     {/* <button className="bg-black dark:bg-white rounded-full w-fit text-white dark:text-black px-4 py-2">
                     Aangenaam

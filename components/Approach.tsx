@@ -87,10 +87,10 @@ const Card = ({
         <div className="text-center group-hover/canvas-card:-translate-y-4 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] group-hover/canvas-card:opacity-0 transition duration-200 w-full  mx-auto flex items-center justify-center">
           {icon}
         </div>
-        <h2 className="dark:text-white text-3xl text-center text-zinc-50 opacity-0 group-hover/canvas-card:opacity-100 relative z-10 mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
+        <h2 className="text-xl md:text-3xl text-center text-zinc-50 opacity-0 group-hover/canvas-card:opacity-100 relative z-10 mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
           {title}
         </h2>
-        <h2 className="dark:text-white text-zinc-50 text-sm text-center opacity-0 group-hover/canvas-card:opacity-100 relative z-10 mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
+        <h2 className=" text-zinc-50 text-sm text-center opacity-0 group-hover/canvas-card:opacity-100 relative z-10 mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
           {description}
         </h2>
       </div>
@@ -101,7 +101,7 @@ const Card = ({
 const AceternityIcon = ({ order }: { order: string }) => {
   return (
     <div>
-      <button className="shadow-xl shadow-teal-300/70 px-8 py-2 bg-gradient-to-br from-teal-300 to-cyan-400 rounded-md text-zinc-50 text-4xl font-semibold transition duration-200 ease-linear">
+      <button className="shadow-xl shadow-teal-300/70 px-8 py-2 bg-gradient-to-br from-teal-300 to-cyan-400 rounded-md text-zinc-50 text-2xl md:text-4xl font-semibold transition duration-200 ease-linear">
         {order}
       </button>
     </div>

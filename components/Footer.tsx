@@ -43,9 +43,9 @@ const Footer = () => {
             </p>
 
             
-            <a href='mailto:randysemicolon@gmail.com'>
-              <div className='absolute z-20'>
-              <Lottie options={defaultOptions} height={100} width={350} />
+            <a href="mailto:hi@randyofosu.nl">
+              <div className='absolute w-56 h-32 md:w-72 md:h-36 pointer-events-none'>
+              <Lottie options={defaultOptions} />
               </div>
             <ReactButton
               title={copied ? 'Zo horen we het graag' : 'Laten we dan in contact komen'}
