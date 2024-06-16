@@ -2,7 +2,7 @@ export const werkErvaring = [
   {
     id: 1,
     title: "Interface Engineer Amsterdam UMC",
-    desc: "Het ontwerpen, ontwikkelen, vernieuwen en onderhouden van koppelingen tussen applicaties en databases in een complex landschap. Het grootste Ziekenhuis van Nederland.",
+    desc: "Het ontwerpen, ontwikkelen, vernieuwen, documenteren en onderhouden van koppelingen tussen applicaties en databases in een complex landschap. Het grootste Ziekenhuis van Nederland.",
     className: "md:col-span-2",
     thumbnail: "https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Health%20Worker%20Dark%20Skin%20Tone.png",
   },
@@ -45,12 +45,6 @@ export const testimonials = [
   {
     quote:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, dignissimos. Commodi ipsa sapiente dignissimos atque, optio similique sint dolore quod architecto in? Totam animi, odit repellat nemo fugit iure explicabo!",
-    name: "Varsha Birdja",
-    title: "Interface Engineer, Amsterdam UMC",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, dignissimos. Commodi ipsa sapiente dignissimos atque, optio similique sint dolore quod architecto in? Totam animi, odit repellat nemo fugit iure explicabo!",
     name: "Joeri Ruizendaal",
     title: "Software Engineer, Celsius Benelux B.V.",
   },
@@ -59,6 +53,18 @@ export const testimonials = [
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, dignissimos. Commodi ipsa sapiente dignissimos atque, optio similique sint dolore quod architecto in? Totam animi, odit repellat nemo fugit iure explicabo!",
     name: "Kevin Roovers",
     title: "Talent Manager, The New Crew",
+  },
+  {
+    quote:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, dignissimos. Commodi ipsa sapiente dignissimos atque, optio similique sint dolore quod architecto in? Totam animi, odit repellat nemo fugit iure explicabo!",
+    name: "Rutger Rozendal",
+    title: "Directeur, Noterik B.V.",
+  },
+  {
+    quote:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, dignissimos. Commodi ipsa sapiente dignissimos atque, optio similique sint dolore quod architecto in? Totam animi, odit repellat nemo fugit iure explicabo!",
+    name: "Varsha Birdja",
+    title: "Interface Engineer, Amsterdam UMC",
   },
   {
     quote:
@@ -105,17 +111,60 @@ export const socialMedia = [
   {
     id: 1,
     img: "/linkedin.svg",
+    link: "https://www.linkedin.com/in/randyofosu",
   },
   {
     id: 2,
     img: "/github.svg",
+    link: "https://github.com/RandyOfosu",
+  },
+  {
+    id: 3,
+    img: "/blog.svg",
+    link: "https://blog.randysemicolon.dev",
   },
   // {
-  //   id: 3,
-  //   img: "/blog.svg",
+  //   id: 4,
+  //   img: "/rss.svg",
+  //   link: "",
   // },
+];
+
+export const usps = [
   {
-    id: 4,
-    img: "/rss.svg",
+    title: "Amsterdammer",
+    description:
+      "Geen geneuzel over tijdzones en ongemakkelijke taalbarrières.",
+    link: "",
+  },
+  {
+    title: "Een Breed Netwerk",
+    description:
+      "Kom ik zelf niet uit in een technische kwestie? Geen probleem, ik kan altijd mijn netwerk van IT toppers bevragen om alsnog tot passende een oplossing te komen.",
+    link: "",
+  },
+  {
+    title: "Diverse Achtergrond",
+    description:
+      "Geboren Nederlander met Ghaneze/Ivoriaanse roots.",
+    link: "",
+  },
+  {
+    title: "Web Development",
+    description:
+      "Niet alleen html/css/js, maar ook Frameworks zoals React (Next.js) en Laravel (PHP) zitten in mijn arsenaal.",
+    link: "",
+  },
+  {
+    title: "API's ontwikkelen",
+    description:
+      "Wil jij informatie delen of ophalen maar dan ook de maten aangeven in hoever dat kan? Dan ben je bij mij aan het juiste adres.",
+    link: "",
+  },
+  {
+    title: "Lorem Ipsum",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, aperiam corrupti! Libero quibusdam, maxime itaque, repellat harum pariatur ipsum corporis eveniet non aut adipisci ducimus, odio in eligendi ut velit.",
+    link: "",
   },
 ];

@@ -1,43 +1,81 @@
-import React from 'react'
-import { socialMedia } from '@/data'
+'use client'
 
-const words = `Klaar om jouw visie verder te verwezenlijken?`
+import React, { useState } from 'react'
+import { socialMedia } from '@/data'
+import { BackgroundBeams } from './ui/background-beams'
+import Lottie from 'react-lottie'
+import animationData from '@/data/confetti.json'
+import ReactButton from './ReactButton'
+
+// import { BackgroundBeams } from './ui/background-beams'
+// const words = `Klaar om jouw visie verder te verwezenlijken?`
 
 const Footer = () => {
+
+  const [copied, setCopied] = useState(false);
+
+  const handleCopy = () => {
+    navigator.clipboard.writeText('hi@randyofosu.nl');
+    setCopied(true);
+  }
+
+  const defaultOptions = {
+    loop: copied,
+    autoplay: copied,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
   return (
-    <div className='mx-10'>
-        <div className='flex flex-col items-center py-20'>
+
+    <div className='mx-10 relative z-20'>
+
+        <div className='flex flex-col relative z-20 items-center py-20'>
             <h1 className="text-xl md:text-5xl font-bold dark:text-white text-center">
                 Ben je klaar om 
                 <span className="text-teal-500"> jouw </span>
                 visie verder te verwezenlijken?
             </h1>
-            <p className="text-zinc-500 font-normal md:text-2xl md:mt-16 mt-10 my-5 text-center">
-                Dus wat zeg je ervan?
+            <p className="text-zinc-500 relative z-20 font-normal md:text-3xl md:mt-16 mt-10 my-5 text-center">
+                Zo ja?
             </p>
-            <a>
-            <button className="mt-10 shadow-xl shadow-green-300/70 px-8 py-4 bg-gradient-to-br from-green-300 to-cyan-400 rounded-md text-zinc-50 text-xl md:text-2xl font-semibold transition duration-200 ease-linear">
-                Laten we in contact komen
-            </button>
+
+            
+            <a href='mailto:randysemicolon@gmail.com'>
+              <div className='absolute z-20'>
+              <Lottie options={defaultOptions} height={100} width={350} />
+              </div>
+            <ReactButton
+              title={copied ? 'Zo horen we het graag' : 'Laten we dan in contact komen'}
+              handleClick={handleCopy}
+            />
             </a>  
         </div>
+
 
         <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
           Copyright © 2024 Randy Ofosu
         </p>
 
-        <div className="flex py-6 items-center md:gap-3 gap-6">
+
+        <div className="relative z-20 flex py-6 items-center md:gap-3 gap-6">
           {socialMedia.map((info) => (
             <div
-              key={info.id}
-              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+            key={info.id}
+            className="w-12 h-12 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-zinc-50"
             >
-              <img src={info.img} alt="icons" width={20} height={20} />
+
+              <a href={info.link} target='_blank'>
+                <img src={info.img} alt="icons" width={25} height={25} />
+              </a>
             </div>
           ))}
         </div>
       </div>
+      <BackgroundBeams />
     </div>
   )
 }

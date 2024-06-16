@@ -6,6 +6,7 @@ import Experience from "@/components/Experience";
 import Approach from "@/components/Approach";
 import Referenties from "@/components/Referenties";
 import Footer from "@/components/Footer";
+import Usp from "@/components/Usp";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
             <TracingBeam>
                 <Hero />
                 <Card />
+                <Usp />
                 <Approach />
                 <Referenties />
                 <Experience />
