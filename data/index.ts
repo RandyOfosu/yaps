@@ -48,30 +48,24 @@ export const testimonials = [
     name: "lorem ipsum",
     title: "lorem ipsum, dolor sit",
   },
-  {
-    quote:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, dignissimos. Commodi ipsa sapiente dignissimos atque, optio similique sint dolore quod architecto in? Totam animi, odit repellat nemo fugit iure explicabo!",
-    name: "lorem ipsum",
-    title: "lorem ipsum, dolor sit",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, dignissimos. Commodi ipsa sapiente dignissimos atque, optio similique sint dolore quod architecto in? Totam animi, odit repellat nemo fugit iure explicabo!",
-    name: "lorem ipsum",
-    title: "lorem ipsum, dolor sit",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, dignissimos. Commodi ipsa sapiente dignissimos atque, optio similique sint dolore quod architecto in? Totam animi, odit repellat nemo fugit iure explicabo!",
-    name: "lorem ipsum",
-    title: "lorem ipsum, dolor sit",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, dignissimos. Commodi ipsa sapiente dignissimos atque, optio similique sint dolore quod architecto in? Totam animi, odit repellat nemo fugit iure explicabo!",
-    name: "lorem ipsum",
-    title: "lorem ipsum, dolor sit",
-  },
+  // {
+  //   quote:
+  //     "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, dignissimos. Commodi ipsa sapiente dignissimos atque, optio similique sint dolore quod architecto in? Totam animi, odit repellat nemo fugit iure explicabo!",
+  //   name: "lorem ipsum",
+  //   title: "lorem ipsum, dolor sit",
+  // },
+  // {
+  //   quote:
+  //     "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, dignissimos. Commodi ipsa sapiente dignissimos atque, optio similique sint dolore quod architecto in? Totam animi, odit repellat nemo fugit iure explicabo!",
+  //   name: "lorem ipsum",
+  //   title: "lorem ipsum, dolor sit",
+  // },
+  // {
+  //   quote:
+  //     "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, dignissimos. Commodi ipsa sapiente dignissimos atque, optio similique sint dolore quod architecto in? Totam animi, odit repellat nemo fugit iure explicabo!",
+  //   name: "lorem ipsum",
+  //   title: "lorem ipsum, dolor sit",
+  // },
 ];
 
 export const companies = [

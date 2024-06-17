@@ -12,7 +12,7 @@ const Referenties = () => {
         <span className="text-cyan-500"> Referenties</span>
       </h1>
 
-      <div className='h-[50vh] md:h-[30rem] py-10 rounded-md flex flex-col antialiased items-center relative overflow-hidden'>
+      <div className='h-[90vh] md:h-[30rem] py-10 rounded-md flex flex-col antialiased items-center relative overflow-hidden'>
           <InfiniteMovingCards 
               items={testimonials}
               direction="right"

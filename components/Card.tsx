@@ -9,16 +9,16 @@ export function Card() {
     <div className="mx-12 xl:flex xl:flex-row justify-items-center grid grid-cols-1 gap-10 place-content-center py-20">
 
       <div className="bg-gradient-to-tl from-cyan-300/70 via-green-300/30 to-pink-100/10 justify-center relative group/card shadow-lg shadow-cyan-300/70 dark:bg-black dark:border-white/[0.2] border-black/[0.2] rounded-xl p-6 xl:w-2/4 w-full h-auto">
-        <div className="text-xl md:text-4xl font-bold text-gray-700 dark:text-white">
+        <div className="text-sm md:text-4xl font-bold text-gray-700 dark:text-white">
           Hi, mijn naam is Randy
         </div>
-        <div className="text-gray-700 text-lg md:text-2xl max-w-l mt-4 md:mt-14 dark:text-neutral-300">
+        <div className="text-gray-700 text-sm md:text-2xl max-w-l mt-4 md:mt-14 dark:text-neutral-300">
           Jouw persoonlijke Gids in het Digitale Landschap.
         </div>
-        <div className="text-gray-700 text-lg md:text-2xl max-w-l mt-4 md:mt-7 dark:text-neutral-300">
+        <div className="text-gray-700 text-sm md:text-2xl max-w-l mt-4 md:mt-7 dark:text-neutral-300">
           Al heel mijn leven, help ik stakeholders met het vinden van structurele oplossingen op hun problemen. 
         </div>
-        <div className="text-gray-700 text-lg md:text-2xl max-w-l mt-4 md:mt-7 dark:text-neutral-300">
+        <div className="text-gray-700 text-sm md:text-2xl max-w-l mt-4 md:mt-7 dark:text-neutral-300">
           Wat mij dit heeft geleerd is dat men niet altijd op zoek is naar een IT-specialist. 
         </div>
 
@@ -36,7 +36,7 @@ export function Card() {
         <CardBody className="bg-zinc-50 transition duration-300 relative group/card shadow-xl shadow-cyan-300/50 hover:shadow-green-300/50 dark:bg-black dark:border-white/[0.2] border-black/[0.2] w-full h-auto rounded-xl p-6">
           <CardItem
             translateZ="50"
-            className="text-xl font-bold text-gray-700 dark:text-white"
+            className="text-base md:text-xl font-bold text-gray-700 dark:text-white"
           >
             Een Sociale IT-er
           </CardItem>
@@ -52,7 +52,7 @@ export function Card() {
               src="/IMG_1005.JPG"
               height="1000"
               width="1000"
-              className="h-64 md:h-96 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+              className="h-48 md:h-96 w-full object-cover rounded-xl group-hover/card:shadow-xl"
               alt="thumbnail"
             />
           </CardItem>
